@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+
+#input-text {
+    font-size: 18px;
+    width: 60%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#generate-btn {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #1d1dcf;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: bold;
+}
+
+#qr-code {
+    display: inline-block;
+    position: fixed;
+    top: 120px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: #f4f4f4;
+}
